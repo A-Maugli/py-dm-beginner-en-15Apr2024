@@ -214,5 +214,5 @@ def test_delete_application(
         algorand.account.get_asset_information(creator.address, test_asset_id)[
             "asset-holding"
         ]["amount"]
-        == 9
+        == 8
     )
